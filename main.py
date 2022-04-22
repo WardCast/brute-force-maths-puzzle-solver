@@ -36,11 +36,16 @@ def is_correct(digits_perm):
 
     if condition1 and condition2 and condition3 and condition4:
         print(digits_perm)
+        print(f"""\ncentre_number (X): {centre_number}\n
+{digits_perm[0]} | {digits_perm[1]} | {digits_perm[2]}
+- + - + -
+{digits_perm[3]} | X | {digits_perm[4]}
+- + - + -
+{digits_perm[5]} | {digits_perm[6]} | {digits_perm[7]}""")
         exit()
     
 
-for i, perm in enumerate(permutations(digits, 8)):
-    print(i)
+for perm in permutations(digits, 8):
     is_correct(perm)
     
 

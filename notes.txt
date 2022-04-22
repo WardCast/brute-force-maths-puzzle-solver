@@ -1,5 +1,10 @@
+Indices format:
+
 0 | 1 | 2
 - + - + -
 3 |   | 4
 - + - + -
 5 | 6 | 7
+
+To solve the puzzle you must arrange the numbers 1-8 in the exterior cells
+so that each edge adds up to a the centre value which was 15 in the one that this was coded to solve.
